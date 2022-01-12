@@ -1,0 +1,82 @@
+body {
+	font-family: 'retro_gamingregular', Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+button {
+	font-family: 'retro_gamingregular';
+	src: url('https://codehs.com/uploads/d7357264d91fb452e893201d29ff1dfd') format('woff2'), url('https://codehs.com/uploads/26d3005c4f0e44dc846a2dac130da941') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'retro_gamingregular';
+	src: url('https://codehs.com/uploads/d7357264d91fb452e893201d29ff1dfd') format('woff2'), url('https://codehs.com/uploads/26d3005c4f0e44dc846a2dac130da941') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#lawn {
+    border: solid;
+    border-width: 3px;
+    margin: auto;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#desc {
+    position:fixed;
+    bottom:0;
+    right:10px;
+}
+
+#prestige {
+    position:fixed;
+    bottom: 0;
+}
+
+#superTicks {
+    position: fixed;
+    right:0;
+    top:0;
+}
+
+.buybutton {
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.zonebutton {
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.arrowbutton {
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.mulchbutton {
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.canvas {
+    object-position
+}
+
+.moneycounter {
+    box-sizing: content-box;
+    width: 30%;
+    border: 3px solid black;
+}

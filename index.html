@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lawnmower Game</title>
+        <script type="text/javascript" src="app.js"></script>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <p id="desc" style="margin-right: 175px;" >Wow This Lawn Grows Fast</p>
+        <div style="">
+        <canvas id="lawn" style="margin-right: 20px; margin-top: center;" width=900 height=500>Canvas goes here</canvas>
+        </div>
+        <p id="money" class="moneycounter">$0</p>
+        <p id="totalMowed">Total Grass Mowed: 0</p>
+        <p id="superTicks"></p>
+        <div id="area" class="upgrades">
+            <p></p>
+            <button class="buybutton" id="upgradetickRate" onclick="upgrade('tickRate')">Tick Rate - $5</button>
+            <span id="texttickRate">Current: 1000 ms</span>
+            <p></p>
+            <button class="buybutton" id="upgradegrowthRate" onclick="upgrade('growthRate')">Growth Rate - $10</button>
+            <span id="textgrowthRate">Current: 4 tiles/tick</span>
+            <p></p>
+            <button class="buybutton" id="upgrademachineSpeed" onclick="upgrade('machineSpeed')">Machine Speed - $50</button>
+            <span id="textmachineSpeed">Current: 1 tile/tick</span>
+            <p></p>
+            <button class="buybutton" id="upgrademachineSize" onclick="upgrade('machineSize')">Machine Size - $75</button>
+            <span id="textmachineSize">Current: 1x1</span>
+            <p></p>
+            <button class="buybutton" id="upgradetileSize" onclick="upgrade('tileSize')">Machine Size - $75</button>
+            <span id="texttileSize">Current: 18x18</span>
+        </div>
+        <p></p>
+        <button class="arrowbutton" onclick="previous()"><</button>
+        <button class="zonebutton" id="unlock" onclick="unlockNext()">Unlock Dust Field for $100000</button>
+        <button class="arrowbutton" onclick="next()">></button>
+        <div id="prestige">
+            <p id="mulch">Mulch: 0</p>
+            <button id="prestigeButton" onclick="attemptPrestige()" class="mulchbutton">Prestige for 0 Mulch</button>
+            <p id="valueBonus">Current Value Bonus: 0%</p>
+            <p id="growthBonus">Current Growth Bonus: 0</p>
+        </div>
+        
+    </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>
